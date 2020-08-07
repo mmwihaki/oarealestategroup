@@ -476,7 +476,6 @@ textarea.contact-form {
     margin: 0 15px 15px 0;
     display: inline-block;
     width: 29%;
-    float: left
 }
 
 .gallery-widget .gallery-list .thumb:nth-last-child(-n+3) {
@@ -2469,7 +2468,7 @@ textarea.contact-form {
 .picture-gallery .gallery-content .grid-items img {
     width: 100%;
     height: 100%;
-    webkit-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease
 }
 
@@ -3665,7 +3664,7 @@ textarea.contact-form {
 }
 
 .nav-bar .detail-nav .nav-item:last-child {
-    border-right: 1px solid #white
+    border-right: 1px solid #white;
 }
 
 .nav-bar .detail-nav .nav-item figure .icon {
