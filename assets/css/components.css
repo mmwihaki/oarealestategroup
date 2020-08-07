@@ -3652,12 +3652,12 @@ textarea.contact-form {
     height: 110px;
     width: 170px;
     font-weight: 700;
-    color: #c0cddb;
+    color: white;
     text-align: center;
     display: inline-block;
     padding-top: 20px;
     padding-bottom: 25px;
-    border-left: 1px solid #edeeee
+    border-left: 1px solid white;
 }
 
 .nav-bar .detail-nav .nav-item .icon {
@@ -3665,7 +3665,7 @@ textarea.contact-form {
 }
 
 .nav-bar .detail-nav .nav-item:last-child {
-    border-right: 1px solid #edeeee
+    border-right: 1px solid #white
 }
 
 .nav-bar .detail-nav .nav-item figure .icon {

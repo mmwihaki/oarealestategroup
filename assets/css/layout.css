@@ -16,6 +16,15 @@ body {
     background-color: #fff
 }
 
+.navbar-brand {
+    display: inline-block;
+    float: none;
+    font-size: 18px;
+    height: 100%;
+    padding: 0;
+    vertical-align: middle;
+}
+
 p, a, label, span {
     font-size: 1em
 }
