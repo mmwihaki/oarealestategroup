@@ -27,6 +27,10 @@
     <link type="text/css" rel="stylesheet" href="assets/css/components.css">
     <link type="text/css" rel="stylesheet" href="assets/css/responsive.css">
     <!-- LOADING SCRIPTS FOR PAGE-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
 </head>
 
 <body>
@@ -34,61 +38,44 @@
     <!-- HEADER-->
     <header>
         <div class="bg-white">
-            <div class="header-topbar">
+            <div class="header-main header-default fixed-top">
                 <div class="container">
-                    <ul class="topbar-left list-unstyled pull-left">
-                        <li><a href="javascript:void(0)" class="language"><i
-                                    class="topbar-icon fa fa-globe"></i><span>English</span>
-                        </li>
-                        <li><a href="#" class="hotline"><i class="topbar-icon fa fa-phone"></i><span>(310)
-                                    988-9764</span></a></li>
-                        <li><a href="#" class="email"><i
-                                    class="topbar-icon fa fa-map-marker"></i><span>hello@oarealestate.com</span></a>
-                        </li>
-                    </ul>
-                    <div class="topbar-right pull-right">
-                        <div class="socials"><a href="#" class="link facebook"><i
-                                    class="fa fa-facebook-square"></i></a><a href="#" class="link twitter"><i
-                                    class="fa fa-twitter"></i></a><a href="#" class="link pinterest"><i
-                                    class="fa fa-pinterest"></i></a><a href="#" class="link blog"><i
-                                    class="fa fa-instagram"></i></a><a href="#" class="link dribbble"><i></i>
+                    <div class="header-main-wrapper">
+                        <div class="navbar-header">
+                            <div class="logo logo-black pull-left"><a href="index.html" class="header-logo"><img
+                                        src="assets/assets/oareglogo.png" alt="" /></a></div>
+                            <div class="logo logo-white pull-left"><a href="index.html" class="header-logo"><img
+                                        src="assets/images/logo-2.png" alt="" /></a></div>
+                            <button type="button" data-toggle="collapse" data-target=".navigation"
+                                class="navbar-toggle btn-navbar"><span class="icon-bar"></span><span
+                                    class="icon-bar"></span><span class="icon-bar"></span></button>
                         </div>
-                    </div>
-                </div>
-                <div class="header-main header-default">
-                    <div class="container">
-                        <div class="header-main-wrapper">
+                        <nav class="navigation pull-right">
+                            <ul class="nav-links nav navbar-nav">
+                                <li><a href="index.html" class="main-menu">Home</a></li>
+                                <li><a href="ourlistings.html" class="main-menu">Our Listings</a></li>
+                                <li><a href="#" class="main-menu">Sell</a></li>
+                                <li><a href="https://www.openairhomes.com/" class="main-menu">Rentals</a></li>
+                                <li class="dropdown active"><a href="about-us.html" class="main-menu">About Us<span
+                                            class="fa fa-angle-down icons-dropdown"></span></a>
+                                    <ul class="dropdown-menu dropdown-menu-1">
+                                        <li><a href="meettheteam.html" class="link-page">Meet The Team</a></li>
+                                        <li><a href="inthepress.html" class="link-page">Press</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="contact.html" class="main-menu">Contact Us</a></li>
+                            </ul>
                             <div class="navbar-header">
                                 <div class="logo logo-black pull-left"><a href="index.html" class="header-logo"><img
-                                            src="assets/images/logo-1.png" alt="" /></a></div>
+                                            src="assets/images/DE_Logo_Small_PNG.png" alt="" /></a></div>
                                 <div class="logo logo-white pull-left"><a href="index.html" class="header-logo"><img
-                                            src="assets/images/logo-2.png" alt="" /></a></div>
-                                <button type="button" data-toggle="collapse" data-target=".navigation"
-                                    class="navbar-toggle btn-navbar"><span class="icon-bar"></span><span
-                                        class="icon-bar"></span><span class="icon-bar"></span></button>
+                                            src="#" alt="" /></a></div>
                             </div>
-                            <nav class="navigation collapse navbar-collapse pull-right">
-                                <ul class="nav-links nav navbar-nav">
-                                    <li><a href="index.html" class="main-menu">Home</a></li>
-                                    <li><a href="about-us.html" class="main-menu">Our Story</a></li>
-                                    <li><a href="meettheteam.html" class="main-menu">Meet the Team</a></li>
-                                    <li><a href="#" class="main-menu">Our Properties</a></li>
-                                    <li><a href="contact.html" class="main-menu">Contact Us</a></li>
-                                </ul>
-                                <div class="navbar-header">
-                                    <div class="logo logo-black pull-left"><a href="index.html" class="header-logo"><img
-                                                src="assets/images/logo-1.png" alt="" /></a></div>
-                                    <div class="logo logo-white pull-left"><a href="index.html" class="header-logo"><img
-                                                src="assets/images/logo-2.png" alt="" /></a></div>
-                                    <button type="button" data-toggle="collapse" data-target=".navigation"
-                                        class="navbar-toggle btn-navbar"><span class="icon-bar"></span><span
-                                            class="icon-bar"></span><span class="icon-bar"></span></button>
-                                </div>
-                            </nav>
-                        </div>
+                        </nav>
                     </div>
                 </div>
             </div>
+        </div>
     </header>
     <!-- WRAPPER-->
     <div id="wrapper-content">
@@ -101,6 +88,7 @@
                     <div class="section page-title contact-us-page bg-overlay">
                         <div class="container">
                             <div class="page-title-wrapper">
+                                <h2>CONTACT US</h2>
                             </div>
                         </div>
                     </div>
@@ -116,7 +104,8 @@
 
                                                         <p class="title">Location</p>
 
-                                                        <p class="text">543 Rose Ave, Venice, CA 90291</p>
+                                                        <p class="text">150 El Camino Dr Suite 150
+                                                            Beverly Hills, CA 90212</p>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-3 col-xs-6">
@@ -163,15 +152,18 @@
                                         </div>
                                     </div>
                                     <div class="contact-us-wrapper"><img
-                                            src="assets/images/libs/contact-page-banner.jpg" alt=""
-                                            class="img-responsive" /><img src="assets/images/libs/banner-2-people.png"
+                                            src="assets/assets/washington.jpg" alt=""
+                                            class="img-responsive" /><img src=""
                                             alt="" class="img-responsive img-contact-people" /></div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="section">
-                        <div id="map2" class="contact-map height-full-screen"></div>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.1639790611202!2d-118.4019769845541!3d34.0653104806024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bbf944ab6513%3A0xd919bb8c779d7657!2s150%20S%20El%20Camino%20Dr%20%23150%2C%20Beverly%20Hills%2C%20CA%2090212%2C%20USA!5e0!3m2!1sen!2ske!4v1597610553314!5m2!1sen!2ske"
+                            width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""
+                            aria-hidden="false" tabindex="0"></iframe>
                     </div>
                 </div>
             </div>
@@ -183,24 +175,43 @@
     <footer>
         <div class="bg-dark">
             <div class="footer-main">
-                <div class="container">
-                    <div class="footer-main-wrapper padding-top-2 padding-bottom row">
+                <div class="container fixed-top">
+                    <div class="footer-main-wrapper padding-bottom row">
+                    </div>
+                    <div style="text-align: justify;">
+                        <p>
+                            150 EL CAMINO DRIVE, LOS ANGELES,CA. 310-595-3888 © 2018 DOUGLAS ELLIMAN REAL ESTATE.
+                            ALL MATERIAL PRESENTED HEREIN IS INTENDED FOR INFORMATION PURPOSES ONLY. WHILE, THIS
+                            INFORMATION IS BELIEVED TO BE CORRECT, IT IS REPRESENTED SUBJECT TO ERRORS, OMISSIONS,
+                            CHANGES OR WITHDRAWAL WITHOUT NOTICE. ALL PROPERTY INFORMATION, INCLUDING, BUT NOT
+                            LIMITED TO SQUARE FOOTAGE, ROOM COUNT, NUMBER OF BEDROOMS AND THE SCHOOL DISTRICT IN
+                            PROPERTY LISTINGS SHOULD BE VERIFIED BY YOUR OWN ATTORNEY, ARCHITECT OR ZONING EXPERT.
+                            EQUAL HOUSING OPPORTUNITY. <a><img src="assets/assets/fairhousing.png" alt="" height="15px;"
+                                    width="15px;" /></a>
+                        </p>
+                    </div>
+                    <br>
+                    <div class="footer-main-wrapper padding-bottom row">
                         <div class="col-md-6 col-2">
                             <div class="row">
                                 <div class="col-sm-6 col-xs-6">
                                     <div class="sunhouse-widget widget">
-                                        <div class="footer-logo footer-logo-white"><img src="assets/images/logo-2.png"
-                                                alt="" /></div>
+                                        <div class="footer-logo footer-logo-white"><a
+                                                href="https://www.elliman.com/"><img
+                                                    src="assets/images/DE_Logo_Small_PNG.png" alt="" /></a></div>
                                         <div class="footer-logo footer-logo-black"><img src="assets/images/logo-1.png"
                                                 alt="" /></div>
                                         <div class="content-widget">
-                                            <p class="text">SunHouse perspiciatis unde omnis iste natus error sit
-                                                voluptatem accusantium doloremque laudantium aperiam.</p>
+                                            <p class="text">Douglas Elliman Real Estate is backed by over a
+                                                century’s
+                                                worth of insights and expertise and is the second largest
+                                                independent
+                                                residential real estate brokerage in the United States by sales
+                                                volume.
+                                            </p>
 
-                                            <p class="text">Nemo enim ipsam voluptatem quia voluptas sit aspernatur.</p>
-
-                                            <div class="phone-number"><i class="fa fa-phone"></i><span>(310)
-                                                    988-9764</span></div>
+                                            <div class="phone-number"><i
+                                                    class="fa fa-phone"></i><span>1800-000-1203</span></div>
                                             <div class="socials"><a href="#" class="link facebook"><i
                                                         class="fa fa-facebook-square"></i></a><a href="#"
                                                     class="link twitter"><i class="fa fa-twitter"></i></a><a href="#"
@@ -223,11 +234,6 @@
                                                             <li><a href="#">Introduction</a></li>
                                                             <li><a href="#">Our Approach</a></li>
                                                             <li><a href="#">Support Forum</a></li>
-                                                            <li><a href="#">Help Center</a></li>
-                                                            <li><a href="#">Layout Features</a></li>
-                                                            <li><a href="#">Fre Questions</a></li>
-                                                            <li><a href="#">Return Policy</a></li>
-                                                            <li><a href="#">Send a Question</a></li>
                                                         </ul>
                                                     </div>
                                                     <div class="col-xs-6">
@@ -249,13 +255,14 @@
                                 <div class="col-sm-6 col-xs-6">
                                     <div class="widget">
                                         <div class="form-blog-widget">
-                                            <div class="title-widget">form the blog</div>
+                                            <div class="title-widget">FEATURED BLOGS</div>
                                             <div class="content-widget">
                                                 <div class="media">
                                                     <div class="media-left"><a href="#" class="img-hover"><img
                                                                 src="assets/images/gallery/gallery-04.jpg" alt="" /></a>
                                                     </div>
-                                                    <div class="media-right"><a href="#" class="title">An Open Letter to
+                                                    <div class="media-right"><a href="#" class="title">An Open
+                                                            Letter to
                                                             Real Estate Tech Founders</a>
 
                                                         <div class="info">
@@ -268,7 +275,8 @@
                                                     <div class="media-left"><a href="#" class="img-hover"><img
                                                                 src="assets/images/gallery/gallery-09.jpg" alt="" /></a>
                                                     </div>
-                                                    <div class="media-right"><a href="#" class="title">What's Wrong with
+                                                    <div class="media-right"><a href="#" class="title">What's Wrong
+                                                            with
                                                             Venture Capital</a>
 
                                                         <div class="info">
@@ -281,7 +289,8 @@
                                                     <div class="media-left"><a href="#" class="img-hover"><img
                                                                 src="assets/images/gallery/gallery-01.jpg" alt="" /></a>
                                                     </div>
-                                                    <div class="media-right"><a href="#" class="title">A Peek into the
+                                                    <div class="media-right"><a href="#" class="title">A Peek into
+                                                            the
                                                             Future of Real Estate</a>
 
                                                         <div class="info">
@@ -299,33 +308,10 @@
                                         <div class="gallery-widget">
                                             <div class="title-widget">GALLERIES</div>
                                             <div class="content-widget">
-                                                <div class="gallery-list"><a href="#" class="thumb img-hover"><img
-                                                            src="assets/images/gallery/gallery-01.jpg" alt=""
-                                                            class="img-responsive" /></a><a href="#"
-                                                        class="thumb img-hover"><img
-                                                            src="assets/images/gallery/gallery-02.jpg" alt=""
-                                                            class="img-responsive" /></a><a href="#"
-                                                        class="thumb img-hover"><img
-                                                            src="assets/images/gallery/gallery-03.jpg" alt=""
-                                                            class="img-responsive" /></a><a href="#"
-                                                        class="thumb img-hover"><img
-                                                            src="assets/images/gallery/gallery-04.jpg" alt=""
-                                                            class="img-responsive" /></a><a href="#"
-                                                        class="thumb img-hover"><img
-                                                            src="assets/images/gallery/gallery-05.jpg" alt=""
-                                                            class="img-responsive" /></a><a href="#"
-                                                        class="thumb img-hover"><img
-                                                            src="assets/images/gallery/gallery-06.jpg" alt=""
-                                                            class="img-responsive" /></a><a href="#"
-                                                        class="thumb img-hover"><img
-                                                            src="assets/images/gallery/gallery-07.jpg" alt=""
-                                                            class="img-responsive" /></a><a href="#"
-                                                        class="thumb img-hover"><img
-                                                            src="assets/images/gallery/gallery-08.jpg" alt=""
-                                                            class="img-responsive" /></a><a href="#"
-                                                        class="thumb img-hover"><img
-                                                            src="assets/images/gallery/gallery-09.jpg" alt=""
-                                                            class="img-responsive" /></a></div>
+                                                <!-- Place <div> tag where you want the feed to appear -->
+                                                <div id="curator-feed-default-feed-layout"><a
+                                                        href="https://www.instagram.com/oarealestategroup/"
+                                                        target="_blank" class="crt-logo crt-tag"></a></div>
                                             </div>
                                         </div>
                                     </div>
@@ -339,14 +325,15 @@
             <div class="hyperlink">
                 <div class="container">
                     <div class="pull-left hyper-left"><span>&copy; Designed by</span><span class="name">OA Real
-                            Estate</span>
+                            Estate
+                            Group</span>
                     </div>
                     <div class="pull-right hyper-right">
                         <ul>
-                            <li><a href="index.html" class="link">Home</a></li>
+                            <li><a href="#" class="link">Home</a></li>
                             <li><a href="#" class="link">FAQ</a></li>
                             <li><a href="#" class="link">Privacy & Term</a></li>
-                            <li><a href="contact.html" class="link">Contact</a></li>
+                            <li><a href="#" class="link">Contact</a></li>
                             <li><a href="#" class="link">Help</a></li>
                         </ul>
                     </div>
@@ -375,6 +362,19 @@
     <script src="assets/libs/slick/slick.min.js"></script>
     <!-- MAIN JS-->
     <script src="assets/js/main.js"></script>
+    <script type="text/javascript">
+        /* curator-feed-default-feed-layout */
+        (function () {
+            var i, e, d = document,
+                s = "script";
+            i = d.createElement("script");
+            i.async = 1;
+            i.src =
+                "https://cdn.curator.io/published/1cb31417-1a5f-4fc2-8e57-de4df98c2d1c.js";
+            e = d.getElementsByTagName(s)[0];
+            e.parentNode.insertBefore(i, e);
+        })();
+    </script>
     <!-- LOADING SCRIPTS FOR PAGE-->
     <script
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAu6tm60TzeUo9rWpLnrQ7mrFn4JPMVje4&amp;amp;sensor=false">

@@ -4534,12 +4534,6 @@ body.ie .contact-us .contact-us-scroll, body.browser-ie .contact-us .contact-us-
     top: 100px
 }
 
-.agent-list .agent-item .agent-info .agencies-pos i, .agent-list .agent-item .agent-info .agencies-pos a {
-    color: #8b979e;
-    margin-bottom: 0;
-    transition: all 0.2s ease;
-    -webkit-transition: all 0.2s ease
-}
 
 .agent-list .agent-item .agent-info .agencies-pos i {
     padding-right: 7px
